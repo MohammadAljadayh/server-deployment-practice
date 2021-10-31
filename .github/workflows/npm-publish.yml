@@ -3,11 +3,8 @@
 
 name: Node.js Package
 
- on: [push,pull_request] 
+ on: [push, pull_request] 
  
-
-  release:
-    types: [created]
 
 jobs:
   build:
